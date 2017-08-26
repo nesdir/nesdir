@@ -1,0 +1,11 @@
+##NES Directory
+
+These files can be used to generate the NES Directory site.
+
+Usage:
+xsltproc [filename].xsl cartdb.xml
+
+Alternatively, run the "generate.sh" shell script.
+
+Future modifications should stick with the XSLT 1.0 specification.
+This way, no heavy Java-based XSLT processors are imposed upon the user.

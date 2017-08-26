@@ -1,0 +1,62 @@
+body {
+	background-color: #000000;
+	font-family: monospace;
+	color: #ffffff;
+}
+
+a {
+	text-decoration:none;
+	color: #ff66a3;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration:none;
+	color: #3366ff;
+	font-weight: bold;
+}
+
+h1 {
+	text-align: left;
+	font-family: monospace;
+	font-weight: bold;
+	color: #ff0066;
+}
+
+h3 {
+	text-align: left;
+	font-family: monospace;
+	color: #3366ff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+th {
+	text-align: left;
+	padding: 2px;
+}
+
+.container {
+	float: left;
+}
+
+.boardinfo {
+	background-color: #001a66;
+	margin: 10px;
+	padding: 10px;
+}
+
+.gameinfo {
+	background-color: #001a66;
+	color: #ffcce0;
+	font-weight: bold;
+	text-shadow: 1px 1px #ff0066;
+	margin: 10px;
+	padding: 10px;
+	display: inline-block;
+}
